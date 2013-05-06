@@ -2,7 +2,7 @@
 class StackTest extends PHPUnit_Framework_TestCase
 {
     public function testPushAndPop()
-    {
+    {  //test stack
         $stack = array();
         $this->assertEquals(0, count($stack));
  
